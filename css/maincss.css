@@ -1,0 +1,31 @@
+/* Main styles*/
+body{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background-color: rgb(209, 142, 59);
+  }
+
+ /* Body wraper*/ 
+.Body_wapper{
+  display: grid;
+  max-width: 400px;
+  max-height: 400px;
+  justify-content: center;
+}
+
+/* Main sections*/
+.section_1,  .section_2, .section_3 {
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20px, 20px, 20px;
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .5px;
+    border-color: navy;
+} 
