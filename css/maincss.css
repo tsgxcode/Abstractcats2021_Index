@@ -8,26 +8,30 @@ body{
 
  /* Body wraper*/ 
 .Body_wapper  {
-  display: grid;
   justify-content: center;
   padding: 10px;
+  display: grid;
+  align-self: center;
+  grid-template-rows: repeat(10, 1fr);
   
+  grid-gap: 1rem;
 }
 
- /*Main sections */
+ /*Main sections*/ 
 .section_1,  .section_2, .section_3 {
-    display: grid;
+    
     padding: 10px;
     border-style: solid;
     border-width: .01px;
     border-radius: .5px;
     border-color: brown;
-    grid-template-columns: 4/10;
-    grid-template-rows: 4/2;
-} 
-/* Section*/
-.section_1 {
+    grid-template-rows: 1fr , 2fr , 3fr;
+    grid-template-columns: 1fr , 5fr ;
    
+} 
+/* Section */
+.section_1 {
+    
     width: 200px;
 }
 
@@ -37,4 +41,4 @@ body{
 
 .section_3 {
   width: 300px;
-}
+} 
