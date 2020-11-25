@@ -2,32 +2,25 @@
 body{
     margin: 0;
     padding: 0;
-    align-content: center;
     background-color: rgb(209, 142, 59);
   }
 
- /* Body wraper*/ 
+ /* Body wraper - Style is grid*/ 
 .Body_wapper  {
   justify-content: center;
-  padding: 10px;
   display: grid;
-  align-self: center;
-  grid-template-rows: repeat(10, 1fr);
-  
-  grid-gap: 1rem;
+  grid-template-columns: 700px 100px;
+  grid-template-rows: 50px 50px 200px;
+  grid-gap: 12px;
 }
 
  /*Main sections*/ 
 .section_1,  .section_2, .section_3 {
-    
-    padding: 10px;
+    padding: 7px;
     border-style: solid;
     border-width: .01px;
     border-radius: .5px;
     border-color: brown;
-    grid-template-rows: 1fr , 2fr , 3fr;
-    grid-template-columns: 1fr , 5fr ;
-   
 } 
 /* Section */
 .section_1 {
